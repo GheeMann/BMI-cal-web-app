@@ -1,0 +1,11 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    <servlet>
+        <servlet-name>BMIServlet</servlet-name>
+        <servlet-class>BMIServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BMIServlet</servlet-name>
+        <url-pattern>/BMIServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
